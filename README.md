@@ -1,5 +1,7 @@
 # RestMEL
 
+> NOTE: THIS IS A PROPOSAL AND DOCUMENTS NON-IMPLEMTED FUNCTIONALITY. IT'S MEANT FOR DISCUSSION ABOUT WHETHER OR NOT A RESTFUL INTERFACE FOR MAYA WOULD SERVE ANY USEFUL PURPOSE.
+
 A RESTful interface for Maya.
 
 The idea is to facilitate external control of Maya via standard REST commands for tools and user interfaces that operate outside the confines of the Maya GUI; such as Web Applications or QML interfaces.
