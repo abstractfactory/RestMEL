@@ -2,7 +2,7 @@
 
 A RESTful interface for Maya.
 
-The idea is to facilitate external control of Maya via standard REST commands for tools and user interfaces that operate outside the confines of the Maya GUI; such as Web Applications or QML interfaces.
+The idea is to facilitate a bi-directional, external control of Maya via standard REST commands for tools and user interfaces that operate outside the confines of the Maya GUI; such as Web Applications or QML interfaces.
 
 # Documentation
 
