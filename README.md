@@ -11,7 +11,7 @@ The idea is to facilitate external control of Maya via standard REST commands fo
 Issue a GET request to the root endpoint to get a list of available endpoints supported by the API
 
 ```bash
-GET http://x.x.x.x:port
+GET http://127.0.0.1:6000
 ```
 
 ###### Supported endpoints
@@ -26,11 +26,11 @@ GET http://x.x.x.x:port
 
 ```bash
 $ # Retrieve list of all available nodes
-$ curl -X GET http://x.x.x.x:port/node
+$ curl -X GET http://127.0.0.1:6000/node
 $ # Create a new node
-$ curl -X POST http://x.x.x.x:port/node -d "{'type': 'mesh', 'name': 'MyMesh'}"
+$ curl -X POST http://127.0.0.1:6000/node -d "{'type': 'mesh', 'name': 'MyMesh'}"
 $ # Execute arbitrary command
-$ curl -X POST http://x.x.x.x:port/command -d "{'module': 'cmds', 'command': 'polyCube', 'kwargs': {'name': 'MyMesh'}}"
+$ curl -X POST http://127.0.0.1:6000/command -d "{'module': 'cmds', 'command': 'polyCube', 'kwargs': {'name': 'MyMesh'}}"
 ```
 
 
